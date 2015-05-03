@@ -1,0 +1,26 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300&subset=latin,latin-ext);
+
+body {font: 10px 'Open Sans';}
+.landing {background: #2e2d2d;}
+.text-center {text-align: center;}
+.button.button-light {border: 1px solid #bb0b52; padding: 0px 50px;}
+.linkedin {color: #0085AE;}
+.linkedin:hover {color: #16A5D1;}
+.linkedin i {font-size: 64px;}
+
+.landingPage {margin-top:100px;}
+.landingPage .logo{animation : landing-animation 1s ease forwards; -webkit-animation : landing-animation 1s ease forwards; position: relative;}
+.landingPage h3 {margin-bottom: 20px; color: #f0f0f0; animation : landing-animation 1s ease forwards; -webkit-animation : landing-animation 1s ease forwards; animation-delay: .5s; position: relative; opacity: 0;}
+.landingPage h4 {margin-bottom: 20px; color: #f0f0f0; animation : landing-animation 1s ease forwards; -webkit-animation : landing-animation 1s ease forwards; animation-delay: 1s; position: relative; opacity: 0;}
+.landingPage .button.button-light {background-image: none; background-color: transparent; color: #f0f0f0; animation : landing-animation 1s ease forwards; -webkit-animation : landing-animation 1s ease forwards; animation-delay: 1.5s; position: relative; opacity: 0;}
+.landingPage .button.button-light.activated {background-color: #f0f0f0; color: #bb0b52;}
+
+.days .button-bar {margin-bottom: 10px;}
+.days ul li h2 {color: #bb0b52; font-style: italic;}
+.days ul li p {white-space: normal; text-overflow: inherit; overflow: visible; font-size: 13px;}
+
+.profile {text-align: center;}
+.profile img {border-radius: 50%; border: 5px solid #fff;}
+
+@keyframes landing-animation {0% {top: 50px;} 100% {top: 0px; opacity: 1;} }
+@-webkit-keyframes landing-animation {0% {top: 50px;} 100% {top: 0px; opacity: 1;} }
